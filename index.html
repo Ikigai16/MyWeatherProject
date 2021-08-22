@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <title>Weather App</title>
   </head>
@@ -23,7 +24,7 @@
             <div class="col-6">
               <input
                 type="search"
-                placeholder="Type a city.."
+                placeholder="Type a city..."
                 autofocus="on"
                 autocomplete="off"
                 id="city-input"
@@ -47,6 +48,14 @@
             </div>
           </div>
         </form>
+
+        <img
+          src="media/zurichbanner.jpeg"
+          class="currentcity"
+          alt="City Picture"
+          width="500"
+        />
+
         <h1 id="city"></h1>
         <ul>
           <li id="date"></li>
@@ -70,6 +79,6 @@
         </div>
       </div>
     </div>
-    <script src="src/index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -30,6 +30,7 @@ li {
   margin: 20px auto;
   border-radius: 10px;
   max-width: 600px;
+  background: rgb(197, 212, 207);
 }
 
 .weather-icon {
@@ -52,4 +53,9 @@ li {
 
 .search-form {
   margin-bottom: 20px;
+}
+
+.currentcity {
+  border-radius: 10px;
+  text-align: center;
 }
